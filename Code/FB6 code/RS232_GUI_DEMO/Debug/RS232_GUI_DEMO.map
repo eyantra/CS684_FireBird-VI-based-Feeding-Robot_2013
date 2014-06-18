@@ -1,0 +1,1534 @@
+Archive member included because of file (symbol)
+
+G:\workspace\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+                              ./src/main.o (SystemFrequency)
+G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(adc.o)
+                              ./src/main.o (ADCInit)
+G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(batterymonitor.o)
+                              ./src/main.o (Get_Battery_Status)
+G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+                              G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(batterymonitor.o) (I2CMasterBuffer)
+G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+                              ./src/main.o (Init_L3G4200D)
+G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(lcd.o)
+                              ./src/main.o (InitLCD)
+G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+                              ./src/main.o (InitMotorController)
+G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+                              ./src/main.o (IRTrigger)
+G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+                              G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o) (UART2Buffer)
+G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+                              G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o) (rx_start)
+c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc176x.o (__main)
+c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdlib.o)
+                              G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o) (abs)
+c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strcmp.o)
+                              G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o) (strcmp)
+c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strncpy.o)
+                              G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o) (strncpy)
+c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(initio.o)
+                              c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdlib.o) (_terminateio)
+c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(raise.o)
+                              c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdlib.o) (raise)
+c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(setvbuf.o)
+                              c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(initio.o) (setvbuf)
+c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdio.o)
+                              c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(initio.o) (__Ciob)
+c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(memset.o)
+                              c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(initio.o) (memset)
+c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__fillbuf.o)
+                              c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdio.o) (__filbuf)
+c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_deferredlazyseek.o)
+                              c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__fillbuf.o) (_deferredlazyseek)
+c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_fdopen.o)
+                              c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(initio.o) (_fdopen)
+c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_fflush.o)
+                              c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__fillbuf.o) (_fflush)
+c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_writebuf.o)
+                              c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_deferredlazyseek.o) (_Cwritebuf)
+c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(alloc.o)
+                              c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(initio.o) (_Csys_alloc)
+c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fclose.o)
+                              c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(initio.o) (fclose)
+c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fflush.o)
+                              c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fclose.o) (fflush)
+c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fseek.o)
+                              c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_deferredlazyseek.o) (fseek)
+c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(ftell.o)
+                              c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fseek.o) (ftell)
+c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(remove.o)
+                              c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fclose.o) (remove)
+c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strlen.o)
+                              c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(remove.o) (strlen)
+c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(memcpy.o)
+                              c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(alloc.o) (memcpy)
+c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__init_alloc.o)
+                              c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(alloc.o) (__heaps)
+c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_do_fflush.o)
+                              c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fflush.o) (_do_fflush)
+c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(errno.o)
+                              c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(ftell.o) (errno)
+c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+                              ./src/main.o (__aeabi_dmul)
+c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+                              ./src/main.o (__aeabi_f2uiz)
+c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(memcpy.o)
+                              c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(memcpy.o) (__aeabi_memcpy)
+
+Allocating common symbols
+Common symbol       size              file
+
+eint0_counter       0x4               ./src/main.o
+temprory            0x4               G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+I2CReadLength       0xc               G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+My_Button_Status    0x1               ./src/main.o
+I2CSlaveBuffer      0xc0              G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+positionData        0xa               G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+rx_start2           0x1               G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+UART2_RxBuffer      0x40              G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+_extra              0x4               c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(initio.o)
+Test                0xc8              G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+UART1Buffer         0x40              G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+UART2Status         0x4               G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+pos                 0x1               G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+posfix              0x2               G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+satellitelock       0x3               G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+UART3Status         0x4               G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+UART0Buffer         0x40              G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+Safety              0x1               ./src/main.o
+rx_start            0x1               G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+ggabite             0x1               G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+norsou              0x2               G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+eint1_counter       0x4               ./src/main.o
+Tx_Buffer           0x40              G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+UART1Status         0x4               G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+Mode                0x1               ./src/main.o
+_exitvector         0x84              c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdlib.o)
+UTC                 0xa               G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+ggamsg              0x4c              G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+I2CMasterBuffer     0xc0              G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+UART3Buffer         0x40              G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+UART2Buffer         0x40              G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+rx_start1           0x1               G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+ii                  0x1               G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+data                0x1               G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+longitude           0xb               G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+Rx_Buffer           0x40              G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+I2CWriteLength      0xc               G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+Right_Count_New_Locked
+                    0x4               ./src/main.o
+ADCValue            0x18              G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(adc.o)
+latitude            0xa               G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+estwst              0x2               G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+_number_of_exit_functions
+                    0x4               c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdlib.o)
+rx_string           0x50              G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+__heaps             0x4               c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__init_alloc.o)
+Left_Count_New_Locked
+                    0x4               ./src/main.o
+__end_of_heap       0x4               c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__init_alloc.o)
+UART0Status         0x4               G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+__Ciob              0x140             c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdio.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./src/cr_startup_lpc176x.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc176x.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc176x.o
+ .text          0x00000000        0x0 ./src/main.o
+ .data          0x00000000        0x0 ./src/main.o
+ .bss           0x00000000        0x0 ./src/main.o
+ .rodata.LPC_I2C
+                0x00000000        0xc ./src/main.o
+ .data.MotorVoltage
+                0x00000000        0x1 ./src/main.o
+ .text.DelayRotate90
+                0x00000000       0x5c ./src/main.o
+ .text          0x00000000        0x0 G:\workspace\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+ .bss           0x00000000        0x0 G:\workspace\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+ .text          0x00000000        0x0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(adc.o)
+ .data          0x00000000        0x0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(adc.o)
+ .bss           0x00000000        0x0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(adc.o)
+ .bss.ADCIntDone
+                0x00000000        0x4 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(adc.o)
+ .bss.BurstCounter
+                0x00000000        0x4 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(adc.o)
+ .bss.OverRunCounter
+                0x00000000        0x4 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(adc.o)
+ .text.ADCBurstRead
+                0x00000000       0x7c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(adc.o)
+ .text          0x00000000        0x0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(batterymonitor.o)
+ .data          0x00000000        0x0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(batterymonitor.o)
+ .bss           0x00000000        0x0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(batterymonitor.o)
+ .rodata.LPC_I2C
+                0x00000000        0xc G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(batterymonitor.o)
+ .text.Battery_Monitor_WriteReg
+                0x00000000       0x6c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(batterymonitor.o)
+ .text          0x00000000        0x0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+ .data          0x00000000        0x0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+ .bss           0x00000000        0x0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+ .bss.I2CCount  0x00000000        0xc G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+ .text.I2CStart
+                0x00000000       0xa4 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+ .text.I2C2Init
+                0x00000000       0xdc G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+ .text          0x00000000        0x0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+ .data          0x00000000        0x0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+ .bss           0x00000000        0x0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+ .rodata.LPC_I2C
+                0x00000000        0xc G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+ .text          0x00000000        0x0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(lcd.o)
+ .data          0x00000000        0x0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(lcd.o)
+ .bss           0x00000000        0x0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(lcd.o)
+ .rodata.LPC_I2C
+                0x00000000        0xc G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(lcd.o)
+ .text.LCDSetCursorHome
+                0x00000000       0x58 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(lcd.o)
+ .text          0x00000000        0x0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+ .data          0x00000000        0x0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+ .bss           0x00000000        0x0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+ .rodata.LPC_I2C
+                0x00000000        0xc G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+ .text.Get_Motor_Voltage
+                0x00000000       0xa0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+ .text.Get_LeftMotor_Current
+                0x00000000       0xa0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+ .text.Get_RightMotor_Current
+                0x00000000       0xa0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+ .text.DisableSpeedRegulation
+                0x00000000       0x54 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+ .text.EnableSpeedRegulation
+                0x00000000       0x54 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+ .text.EnableTimeout
+                0x00000000       0x54 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+ .text.MoveForwardDistanceMM
+                0x00000000      0x158 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+ .text.MoveReverseDistanceMM
+                0x00000000      0x168 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+ .text.MoveRotate
+                0x00000000      0x278 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+ .text          0x00000000        0x0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+ .data          0x00000000        0x0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+ .bss           0x00000000        0x0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+ .rodata.LPC_I2C
+                0x00000000        0xc G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+ .text          0x00000000        0x0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+ .data          0x00000000        0x0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+ .bss           0x00000000        0x0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+ .rodata.LPC_I2C
+                0x00000000        0xc G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+ .bss.data_byte2
+                0x00000000        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+ .bss.data_byte3
+                0x00000000        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+ .bss.data_byte4
+                0x00000000        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+ .bss.data_byte5
+                0x00000000        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+ .bss.gpsPacketRx
+                0x00000000        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+ .bss.TestCount
+                0x00000000        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+ .text.GPSDecode
+                0x00000000      0x188 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+ .text.WirelessModuleDecode
+                0x00000000      0x1c0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+ .text          0x00000000        0x0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+ .data          0x00000000        0x0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+ .bss           0x00000000        0x0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+ .bss.rxtxintchngdbit
+                0x00000000        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+ .bss.rxtxintchngdbit2
+                0x00000000        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+ .bss.dispclrbit
+                0x00000000        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+ .bss.usatr3_count
+                0x00000000        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+ .rodata        0x00000000        0x4 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+ .data.msgid    0x00000000       0x14 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+ .data.rxtxintchngd
+                0x00000000       0x14 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+ .data.gpsrecv  0x00000000       0x10 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+ .data.satnlock
+                0x00000000       0x10 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+ .data.sat      0x00000000        0x4 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+ .data.fix      0x00000000        0x4 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+ .text.readUTC  0x00000000       0xc8 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+ .text.readlatitude
+                0x00000000       0xc8 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+ .text.readnorsou
+                0x00000000       0x48 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+ .text.readlongitude
+                0x00000000       0xc8 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+ .text.readestwst
+                0x00000000       0x48 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+ .text.readposfix
+                0x00000000       0x48 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+ .text.readsatellitelock
+                0x00000000       0x9c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+ .text.rx_data_store
+                0x00000000       0xe4 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+ COMMON         0x00000000       0xe0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__weak__main.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdlib.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdlib.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdlib.o)
+ .text.__rand   0x00000000       0x20 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdlib.o)
+ .text.__srand  0x00000000        0xc c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdlib.o)
+ .text.rand     0x00000000       0x3c c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdlib.o)
+ .text.srand    0x00000000       0x3c c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdlib.o)
+ .text._exit_init
+                0x00000000        0xc c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdlib.o)
+ .text.atexit   0x00000000       0x24 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdlib.o)
+ .text.exit     0x00000000       0x2c c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdlib.o)
+ .text.abort    0x00000000       0x12 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdlib.o)
+ .text.abs      0x00000000        0x8 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdlib.o)
+ .text.labs     0x00000000        0x8 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdlib.o)
+ .text.div      0x00000000       0x10 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdlib.o)
+ .text.ldiv     0x00000000       0x10 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdlib.o)
+ .data.next     0x00000000        0x4 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdlib.o)
+ .data._random_number_seed
+                0x00000000       0xdc c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdlib.o)
+ .data._random_j
+                0x00000000        0x4 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdlib.o)
+ .data._random_k
+                0x00000000        0x4 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdlib.o)
+ COMMON         0x00000000       0x88 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdlib.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strcmp.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strcmp.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strcmp.o)
+ .text.strcmp   0x00000000       0x46 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strcmp.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strncpy.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strncpy.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strncpy.o)
+ .text.strncpy  0x00000000       0x58 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strncpy.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(initio.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(initio.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(initio.o)
+ .text._initio  0x00000000       0x9c c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(initio.o)
+ .text._terminateio
+                0x00000000       0x48 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(initio.o)
+ .rodata.str1.1
+                0x00000000        0x4 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(initio.o)
+ COMMON         0x00000000        0x4 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(initio.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(raise.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(raise.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(raise.o)
+ .text.raise    0x00000000        0x6 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(raise.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(setvbuf.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(setvbuf.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(setvbuf.o)
+ .text.setvbuf  0x00000000       0x48 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(setvbuf.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdio.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdio.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdio.o)
+ .text.fgetc    0x00000000       0x1a c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdio.o)
+ .text.fputc    0x00000000       0x22 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdio.o)
+ .text.getc     0x00000000       0x1a c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdio.o)
+ .text.getchar  0x00000000       0x20 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdio.o)
+ .text.putc     0x00000000       0x22 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdio.o)
+ .text.putchar  0x00000000       0x24 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdio.o)
+ .text.feof     0x00000000        0x8 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdio.o)
+ .text.ferror   0x00000000        0x8 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdio.o)
+ .text.clearerr
+                0x00000000        0xe c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdio.o)
+ COMMON         0x00000000      0x140 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdio.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(memset.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(memset.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(memset.o)
+ .text.memset   0x00000000        0x4 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(memset.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__fillbuf.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__fillbuf.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__fillbuf.o)
+ .text._Csys_read_
+                0x00000000       0x22 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__fillbuf.o)
+ .text.__filbuf
+                0x00000000      0x190 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__fillbuf.o)
+ .text._fillb2  0x00000000       0x1e c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__fillbuf.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_deferredlazyseek.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_deferredlazyseek.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_deferredlazyseek.o)
+ .text._deferredlazyseek
+                0x00000000       0x44 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_deferredlazyseek.o)
+ .text.__flsbuf
+                0x00000000      0x15e c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_deferredlazyseek.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_fdopen.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_fdopen.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_fdopen.o)
+ .text._fdopen  0x00000000       0x6e c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_fdopen.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_fflush.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_fflush.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_fflush.o)
+ .text._fflush  0x00000000       0x58 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_fflush.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_writebuf.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_writebuf.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_writebuf.o)
+ .text._Cwritebuf
+                0x00000000       0x88 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_writebuf.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(alloc.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(alloc.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(alloc.o)
+ .text.malloc   0x00000000       0xd0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(alloc.o)
+ .text.free     0x00000000        0xa c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(alloc.o)
+ .text.calloc   0x00000000       0x50 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(alloc.o)
+ .text._Csys_alloc
+                0x00000000       0x20 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(alloc.o)
+ .text.realloc  0x00000000       0x1c c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(alloc.o)
+ .rodata.str1.1
+                0x00000000       0x18 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(alloc.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fclose.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fclose.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fclose.o)
+ .text.fclose   0x00000000       0x72 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fclose.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fflush.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fflush.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fflush.o)
+ .text.fflush   0x00000000       0x34 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fflush.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fseek.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fseek.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fseek.o)
+ .text.fseek    0x00000000      0x110 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fseek.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(ftell.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(ftell.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(ftell.o)
+ .text.ftell    0x00000000       0x50 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(ftell.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(remove.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(remove.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(remove.o)
+ .text.remove   0x00000000       0x14 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(remove.o)
+ .text.rename   0x00000000       0x2a c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(remove.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strlen.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strlen.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strlen.o)
+ .text.strlen   0x00000000       0x4e c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strlen.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(memcpy.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(memcpy.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(memcpy.o)
+ .text.memcpy   0x00000000        0x4 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(memcpy.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__init_alloc.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__init_alloc.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__init_alloc.o)
+ .text._init_alloc
+                0x00000000       0x14 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__init_alloc.o)
+ COMMON         0x00000000        0x8 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__init_alloc.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_do_fflush.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_do_fflush.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_do_fflush.o)
+ .text._do_fflush
+                0x00000000       0x44 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_do_fflush.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(errno.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(errno.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(errno.o)
+ .bss.errno     0x00000000        0x4 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(errno.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+ .text.__aeabi_drsub
+                0x00000000       0x1c c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dneg
+                0x00000000        0xc c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+ .text.__aeabi_d2iz
+                0x00000000       0x3e c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+ .text.__aeabi_d2uiz
+                0x00000000       0x30 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+ .text.__aeabi_d2lz
+                0x00000000       0x64 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+ .text.__aeabi_d2ulz
+                0x00000000       0x50 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+ .text.__bhs_ui2d
+                0x00000000       0x50 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+ .text.__bhs_ul2d
+                0x00000000       0x92 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+ .text.__aeabi_i2d
+                0x00000000       0x10 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+ .text.__aeabi_ui2d
+                0x00000000        0x8 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+ .text.__aeabi_l2d
+                0x00000000       0x16 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+ .text.__aeabi_ul2d
+                0x00000000        0x8 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmpeq
+                0x00000000       0x36 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmplt
+                0x00000000       0x5a c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmpgt
+                0x00000000       0x58 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmple
+                0x00000000       0x5a c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmpge
+                0x00000000       0x5a c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+ .text.__aeabi_dcmpun
+                0x00000000       0x1a c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+ .text.__aeabi_cdcmple
+                0x00000000       0x30 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+ .text.__aeabi_cdrcmple
+                0x00000000       0x16 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fmul
+                0x00000000       0xbc c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fdiv
+                0x00000000       0xe8 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fsub
+                0x00000000       0xe0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_frsub
+                0x00000000        0xc c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fadd
+                0x00000000       0xa4 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fneg
+                0x00000000        0x6 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_f2iz
+                0x00000000       0x34 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_f2lz
+                0x00000000       0x5a c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_f2ulz
+                0x00000000       0x3c c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__bhs_ul2f
+                0x00000000       0x4a c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_i2f
+                0x00000000       0x10 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_l2f
+                0x00000000       0x16 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_ul2f
+                0x00000000        0x8 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fcmpeq
+                0x00000000       0x1e c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fcmplt
+                0x00000000       0x3a c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fcmpgt
+                0x00000000       0x3a c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fcmple
+                0x00000000       0x40 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fcmpge
+                0x00000000       0x40 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fcmpun
+                0x00000000       0x1a c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_cfcmple
+                0x00000000       0x24 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+ .text.__aeabi_cfrcmple
+                0x00000000        0xa c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(memcpy.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(memcpy.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memcpy
+                0x00000000       0x26 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memmove
+                0x00000000       0x1c c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memset_lowlevel
+                0x00000000       0x24 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memclr
+                0x00000000        0x8 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memset
+                0x00000000        0xa c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(memcpy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash512        0x00000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+RamAHB32         0x2007c000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/cr_startup_lpc176x.o
+LOAD ./src/main.o
+LOAD G:\workspace\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a
+LOAD G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a
+START GROUP
+LOAD c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a
+LOAD c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a
+END GROUP
+                0x00080000                __top_MFlash512 = 0x80000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x20084000                __top_RamAHB32 = 0x20084000
+
+.text           0x00000000     0x8a24
+ FILL mask 0xff
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xcc ./src/cr_startup_lpc176x.o
+                0x00000000                g_pfnVectors
+                0x000000cc                . = ALIGN (0x4)
+                0x000000cc                __section_table_start = .
+                0x000000cc                __data_section_table = .
+                0x000000cc        0x4 LONG 0x8a24 LOADADDR (.data)
+                0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
+                0x000000d4        0x4 LONG 0x60 SIZEOF (.data)
+                0x000000d8        0x4 LONG 0x8a24 LOADADDR (.data_RAM2)
+                0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
+                0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x000000e4                __data_section_table_end = .
+                0x000000e4                __bss_section_table = .
+                0x000000e4        0x4 LONG 0x10000060 ADDR (.bss)
+                0x000000e8        0x4 LONG 0x4e8 SIZEOF (.bss)
+                0x000000ec        0x4 LONG 0x2007c000 ADDR (.bss_RAM2)
+                0x000000f0        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x000000f4                __bss_section_table_end = .
+                0x000000f4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x000000f4       0x78 ./src/cr_startup_lpc176x.o
+                0x000000f4                NMI_Handler
+                0x000000f6                HardFault_Handler
+                0x000000f8                MemManage_Handler
+                0x000000fa                BusFault_Handler
+                0x000000fc                UsageFault_Handler
+                0x000000fe                SVCall_Handler
+                0x00000100                DebugMon_Handler
+                0x00000102                PendSV_Handler
+                0x00000104                SysTick_Handler
+                0x00000106                data_init
+                0x00000118                bss_init
+                0x00000128                ResetISR
+                0x00000168                TIMER3_IRQHandler
+                0x00000168                CANActivity_IRQHandler
+                0x00000168                RIT_IRQHandler
+                0x00000168                EINT3_IRQHandler
+                0x00000168                PLL0_IRQHandler
+                0x00000168                CAN_IRQHandler
+                0x00000168                EINT2_IRQHandler
+                0x00000168                SSP0_IRQHandler
+                0x00000168                I2S_IRQHandler
+                0x00000168                RTC_IRQHandler
+                0x00000168                TIMER0_IRQHandler
+                0x00000168                SPI_IRQHandler
+                0x00000168                IntDefaultHandler
+                0x00000168                TIMER1_IRQHandler
+                0x00000168                ADC_IRQHandler
+                0x00000168                SSP1_IRQHandler
+                0x00000168                USB_IRQHandler
+                0x00000168                BOD_IRQHandler
+                0x00000168                TIMER2_IRQHandler
+                0x00000168                WDT_IRQHandler
+                0x00000168                QEI_IRQHandler
+                0x00000168                USBActivity_IRQHandler
+                0x00000168                DMA_IRQHandler
+                0x00000168                PLL1_IRQHandler
+                0x00000168                MCPWM_IRQHandler
+                0x00000168                ENET_IRQHandler
+                0x000002fc                . = 0x2fc
+ *fill*         0x0000016c      0x190 ff
+                0x000002fc                PROVIDE (__CRP_WORD_START__, .)
+ *(.crp)
+ .crp           0x000002fc        0x4 ./src/main.o
+                0x000002fc                CRP_WORD
+                0x00000300                PROVIDE (__CRP_WORD_END__, .)
+                0x00000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.NVIC_EnableIRQ
+                0x00000300       0x38 ./src/main.o
+ .text.PWM1_IRQHandler
+                0x00000338       0x34 ./src/main.o
+                0x00000338                PWM1_IRQHandler
+ .text.EINT0_IRQHandler
+                0x0000036c       0x6c ./src/main.o
+                0x0000036c                EINT0_IRQHandler
+ .text.EINT1_IRQHandler
+                0x000003d8       0x6c ./src/main.o
+                0x000003d8                EINT1_IRQHandler
+ .text.EINTInit
+                0x00000444       0x80 ./src/main.o
+                0x00000444                EINTInit
+ .text.InitPWM  0x000004c4      0x13c ./src/main.o
+                0x000004c4                InitPWM
+ .text.InitLeds
+                0x00000600       0x3c ./src/main.o
+                0x00000600                InitLeds
+ .text.InitSwitch
+                0x0000063c       0x30 ./src/main.o
+                0x0000063c                InitSwitch
+ .text.InitPeripherals
+                0x0000066c       0xf0 ./src/main.o
+                0x0000066c                InitPeripherals
+ .text.Delay    0x0000075c       0x2c ./src/main.o
+                0x0000075c                Delay
+ .text.Delay1s  0x00000788       0x5c ./src/main.o
+                0x00000788                Delay1s
+ .text.Delay100ms
+                0x000007e4       0x5c ./src/main.o
+                0x000007e4                Delay100ms
+ .text.BlinkLEDs
+                0x00000840       0x88 ./src/main.o
+                0x00000840                BlinkLEDs
+ .text.AcquireData
+                0x000008c8      0x3cc ./src/main.o
+                0x000008c8                AcquireData
+ .text.InitLaserPort
+                0x00000c94       0x30 ./src/main.o
+                0x00000c94                InitLaserPort
+ .text.InitMotorPort
+                0x00000cc4      0x104 ./src/main.o
+                0x00000cc4                InitMotorPort
+ .text.main     0x00000dc8      0x2e8 ./src/main.o
+                0x00000dc8                main
+ .text.SystemInit
+                0x000010b0      0x1e8 G:\workspace\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+                0x000010b0                SystemInit
+ .text.SystemClockUpdate
+                0x00001298      0x238 G:\workspace\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+                0x00001298                SystemClockUpdate
+ .text.ADCInit  0x000014d0      0x188 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(adc.o)
+                0x000014d0                ADCInit
+ .text.ADCRead  0x00001658       0xbc G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(adc.o)
+                0x00001658                ADCRead
+ .text.Battery_Monitor_ReadReg
+                0x00001714       0x6c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(batterymonitor.o)
+                0x00001714                Battery_Monitor_ReadReg
+ .text.Get_Battery_Status
+                0x00001780       0x9c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(batterymonitor.o)
+                0x00001780                Get_Battery_Status
+ .text.NVIC_EnableIRQ
+                0x0000181c       0x38 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+ .text.NVIC_SetPriority
+                0x00001854       0x5c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+ .text.I2C0_IRQHandler
+                0x000018b0      0x4ac G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+                0x000018b0                I2C0_IRQHandler
+ .text.I2C1_IRQHandler
+                0x00001d5c      0x4c4 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+                0x00001d5c                I2C1_IRQHandler
+ .text.I2C2_IRQHandler
+                0x00002220      0x4c4 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+                0x00002220                I2C2_IRQHandler
+ .text.I2CStop  0x000026e4       0x5c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+                0x000026e4                I2CStop
+ .text.I2C0Init
+                0x00002740       0xb8 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+                0x00002740                I2C0Init
+ .text.I2C1Init
+                0x000027f8       0xdc G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+                0x000027f8                I2C1Init
+ .text.ResetI2C0
+                0x000028d4      0x104 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+                0x000028d4                ResetI2C0
+ .text.ResetI2C1
+                0x000029d8      0x104 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+                0x000029d8                ResetI2C1
+ .text.I2CEngine
+                0x00002adc       0xc0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+                0x00002adc                I2CEngine
+ .text.Init_L3G4200D
+                0x00002b9c       0x24 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+                0x00002b9c                Init_L3G4200D
+ .text.L3G4200D_WriteReg
+                0x00002bc0       0x6c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+                0x00002bc0                L3G4200D_WriteReg
+ .text.L3G4200D_ReadReg
+                0x00002c2c       0x6c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+                0x00002c2c                L3G4200D_ReadReg
+ .text.Get_XYZ_Rate
+                0x00002c98       0xf8 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+                0x00002c98                Get_XYZ_Rate
+ .text.Init_LSM303DLHC_Accelerometer
+                0x00002d90       0x24 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+                0x00002d90                Init_LSM303DLHC_Accelerometer
+ .text.LSM303DLHC_Accelerometer_WriteReg
+                0x00002db4       0x6c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+                0x00002db4                LSM303DLHC_Accelerometer_WriteReg
+ .text.LSM303DLHC_Accelerometer_ReadReg
+                0x00002e20       0x6c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+                0x00002e20                LSM303DLHC_Accelerometer_ReadReg
+ .text.Get_XYZ_Acceleration
+                0x00002e8c       0xf8 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+                0x00002e8c                Get_XYZ_Acceleration
+ .text.Init_LSM303DLHC_Magnetometer
+                0x00002f84       0x30 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+                0x00002f84                Init_LSM303DLHC_Magnetometer
+ .text.LSM303DLHC_Magnetometer_WriteReg
+                0x00002fb4       0x6c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+                0x00002fb4                LSM303DLHC_Magnetometer_WriteReg
+ .text.LSM303DLHC_Magnetometer_ReadReg
+                0x00003020       0x6c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+                0x00003020                LSM303DLHC_Magnetometer_ReadReg
+ .text.Get_XYZ_Magnetometer
+                0x0000308c       0xe0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+                0x0000308c                Get_XYZ_Magnetometer
+ .text.Delay_LCD
+                0x0000316c       0x2c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(lcd.o)
+                0x0000316c                Delay_LCD
+ .text.InitLCD  0x00003198       0x28 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(lcd.o)
+                0x00003198                InitLCD
+ .text.LCD_WriteCmd
+                0x000031c0       0x5c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(lcd.o)
+                0x000031c0                LCD_WriteCmd
+ .text.LCD_WriteStr
+                0x0000321c       0x90 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(lcd.o)
+                0x0000321c                LCD_WriteStr
+ .text.LCD_PrintData
+                0x000032ac      0x248 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(lcd.o)
+                0x000032ac                LCD_PrintData
+ .text.LCDSetCursorPosition
+                0x000034f4       0x7c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(lcd.o)
+                0x000034f4                LCDSetCursorPosition
+ .text.LCDSetBackLight
+                0x00003570       0x74 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(lcd.o)
+                0x00003570                LCDSetBackLight
+ .text.LCDClearScreen
+                0x000035e4       0x58 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(lcd.o)
+                0x000035e4                LCDClearScreen
+ .text.Delay_ms
+                0x0000363c       0x6c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+                0x0000363c                Delay_ms
+ .text.InitMotorController
+                0x000036a8        0xc G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+                0x000036a8                InitMotorController
+ .text.EnableSafety
+                0x000036b4       0x60 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+                0x000036b4                EnableSafety
+ .text.DisableSafety
+                0x00003714       0x60 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+                0x00003714                DisableSafety
+ .text.GetLeftMotorCount
+                0x00003774      0x114 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+                0x00003774                GetLeftMotorCount
+ .text.GetRightMotorCount
+                0x00003888      0x114 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+                0x00003888                GetRightMotorCount
+ .text.ClearEncoderCounts
+                0x0000399c       0x54 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+                0x0000399c                ClearEncoderCounts
+ .text.DisableTimeout
+                0x000039f0       0x54 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+                0x000039f0                DisableTimeout
+ .text.SetMode  0x00003a44       0x6c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+                0x00003a44                SetMode
+ .text.GetMode  0x00003ab0       0x78 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+                0x00003ab0                GetMode
+ .text.Move     0x00003b28       0xc8 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+                0x00003b28                Move
+ .text.Stop     0x00003bf0       0xbc G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+                0x00003bf0                Stop
+ .text.SetAcceleration
+                0x00003cac       0x6c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+                0x00003cac                SetAcceleration
+ .text.MotorControl
+                0x00003d18      0x100 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+                0x00003d18                MotorControl
+ .text.AccelerationUpdate
+                0x00003e18       0x38 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+                0x00003e18                AccelerationUpdate
+ .text.SetPosition
+                0x00003e50      0x104 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+                0x00003e50                SetPosition
+ .text.Sensor_Board_WriteReg
+                0x00003f54       0x68 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+                0x00003f54                Sensor_Board_WriteReg
+ .text.Sensor_Board_ReadReg
+                0x00003fbc       0x68 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+                0x00003fbc                Sensor_Board_ReadReg
+ .text.Get_Ultrasonic_Data
+                0x00004024       0xd8 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+                0x00004024                Get_Ultrasonic_Data
+ .text.Set_UL_Trigger
+                0x000040fc       0x34 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+                0x000040fc                Set_UL_Trigger
+ .text.ULTriggerUpdate
+                0x00004130       0x48 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+                0x00004130                ULTriggerUpdate
+ .text.Get_Whiteline_Data
+                0x00004178       0xd8 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+                0x00004178                Get_Whiteline_Data
+ .text.Set_WL_Trigger
+                0x00004250       0x34 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+                0x00004250                Set_WL_Trigger
+ .text.WLTriggerUpdate
+                0x00004284       0x48 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+                0x00004284                WLTriggerUpdate
+ .text.Get_IR_Proximity_Data
+                0x000042cc       0xd8 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+                0x000042cc                Get_IR_Proximity_Data
+ .text.Set_IR_Trigger
+                0x000043a4       0x34 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+                0x000043a4                Set_IR_Trigger
+ .text.IRTriggerUpdate
+                0x000043d8       0x48 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+                0x000043d8                IRTriggerUpdate
+ .text.UpdateServoPos
+                0x00004420       0xd8 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+                0x00004420                UpdateServoPos
+ .text.AD7998_WriteReg
+                0x000044f8       0x7c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+                0x000044f8                AD7998_WriteReg
+ .text.AD7998_Board_ReadReg
+                0x00004574       0x68 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+                0x00004574                AD7998_Board_ReadReg
+ .text.Get_AD7998_Data
+                0x000045dc      0x144 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+                0x000045dc                Get_AD7998_Data
+ .text.NVIC_EnableIRQ
+                0x00004720       0x38 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+ .text.NVIC_SetPriority
+                0x00004758       0x5c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+ .text.NVIC_GetPriority
+                0x000047b4       0x58 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+ .text.UART0_IRQHandler
+                0x0000480c      0x194 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+                0x0000480c                UART0_IRQHandler
+ .text.UART1_IRQHandler
+                0x000049a0      0x194 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+                0x000049a0                UART1_IRQHandler
+ .text.UART2_IRQHandler
+                0x00004b34      0x1c0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+                0x00004b34                UART2_IRQHandler
+ .text.UART3_IRQHandler
+                0x00004cf4      0x1f8 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+                0x00004cf4                UART3_IRQHandler
+ .text.UARTInit
+                0x00004eec      0x4f4 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+                0x00004eec                UARTInit
+ .text.UARTSend
+                0x000053e0      0x154 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+                0x000053e0                UARTSend
+ .text.UARTDecode
+                0x00005534     0x2e3c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+                0x00005534                UARTDecode
+ .text.__weak_main
+                0x00008370        0x4 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__weak__main.o)
+                0x00008370                __weak_main
+                0x00008370                __main
+ .text.__aeabi_dmul
+                0x00008374      0x128 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+                0x00008374                __aeabi_dmul
+ .text.__aeabi_ddiv
+                0x0000849c      0x144 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+                0x0000849c                __aeabi_ddiv
+ .text.__aeabi_dsub
+                0x000085e0      0x1d8 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+                0x000085e0                __aeabi_dsub
+ .text.__aeabi_dadd
+                0x000087b8      0x13c c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+                0x000087b8                __aeabi_dadd
+ .text.__aeabi_d2f
+                0x000088f4       0x54 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+                0x000088f4                __aeabi_d2f
+ .text.__aeabi_f2uiz
+                0x00008948       0x26 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+                0x00008948                __aeabi_f2uiz
+ .text.__bhs_ui2f
+                0x0000896e       0x26 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+                0x0000896e                __bhs_ui2f
+ .text.__aeabi_ui2f
+                0x00008994        0x8 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+                0x00008994                __aeabi_ui2f
+ .text.__aeabi_f2d
+                0x0000899c       0x38 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+                0x0000899c                __aeabi_f2d
+ *(.rodata .rodata.*)
+ .rodata        0x000089d4       0x44 ./src/main.o
+ .rodata.LPC_I2C
+                0x00008a18        0xc G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+                0x00008a24                . = ALIGN (0x4)
+
+.glue_7         0x00008a24        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00008a24        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00008a24        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00008a24        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00008a24                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00008a24                __exidx_end = .
+                0x00008a24                _etext = .
+
+.data_RAM2      0x2007c000        0x0 load address 0x00008a24
+ FILL mask 0xff
+ *(.data.$RAM2*)
+ *(.data.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.uninit_RESERVED
+ *(.bss.$RESERVED*)
+
+.data           0x10000000       0x60 load address 0x00008a24
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.data*)
+ .data.Ultrasonic
+                0x10000000        0x8 ./src/main.o
+                0x10000000                Ultrasonic
+ .data.Whiteline
+                0x10000008        0x8 ./src/main.o
+                0x10000008                Whiteline
+ .data.IR_Proximity
+                0x10000010        0x8 ./src/main.o
+                0x10000010                IR_Proximity
+ .data.Accelerometer
+                0x10000018        0x8 ./src/main.o
+                0x10000018                Accelerometer
+ .data.Gyroscope
+                0x10000020        0x8 ./src/main.o
+                0x10000020                Gyroscope
+ .data.Magnetometer
+                0x10000028        0x8 ./src/main.o
+                0x10000028                Magnetometer
+ .data.Battery  0x10000030        0x8 ./src/main.o
+                0x10000030                Battery
+ .data.LeftMotorCurrent
+                0x10000038        0x1 ./src/main.o
+                0x10000038                LeftMotorCurrent
+ .data.RightMotorCurrent
+                0x10000039        0x1 ./src/main.o
+                0x10000039                RightMotorCurrent
+ *fill*         0x1000003a        0x2 00
+ .data.AD7998ADC
+                0x1000003c       0x10 ./src/main.o
+                0x1000003c                AD7998ADC
+ .data.remoteControl
+                0x1000004c        0x8 ./src/main.o
+                0x1000004c                remoteControl
+ .data          0x10000054        0x4 G:\workspace\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+                0x10000054                SystemFrequency
+ .data.UART0TxEmpty
+                0x10000058        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+                0x10000058                UART0TxEmpty
+ .data.UART1TxEmpty
+                0x10000059        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+                0x10000059                UART1TxEmpty
+ .data.UART2TxEmpty
+                0x1000005a        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+                0x1000005a                UART2TxEmpty
+ .data.UART3TxEmpty
+                0x1000005b        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+                0x1000005b                UART3TxEmpty
+ .data.packet_data_count.2362
+                0x1000005c        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+                0x10000060                . = ALIGN (0x4)
+ *fill*         0x1000005d        0x3 ff
+                0x10000060                _edata = .
+
+.bss_RAM2       0x2007c000        0x0
+ *(.bss.$RAM2*)
+ *(.bss.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.bss            0x10000060      0x4e8
+                0x10000060                _bss = .
+ *(.bss*)
+ .bss.PotValue  0x10000060        0x4 ./src/main.o
+                0x10000060                PotValue
+ .bss.ServoPOD_ADC
+                0x10000064        0x4 ./src/main.o
+                0x10000064                ServoPOD_ADC
+ .bss.ResetEncoderCounts
+                0x10000068        0x1 ./src/main.o
+                0x10000068                ResetEncoderCounts
+ .bss.UpdateMode
+                0x10000069        0x1 ./src/main.o
+                0x10000069                UpdateMode
+ .bss.UpdateSafety
+                0x1000006a        0x1 ./src/main.o
+                0x1000006a                UpdateSafety
+ .bss.ServoPodULTriggerState
+                0x1000006b        0x1 ./src/main.o
+                0x1000006b                ServoPodULTriggerState
+ .bss.updatePosition
+                0x1000006c        0x1 ./src/main.o
+                0x1000006c                updatePosition
+ *fill*         0x1000006d        0x3 00
+ .bss.positionLeft
+                0x10000070        0x4 ./src/main.o
+                0x10000070                positionLeft
+ .bss.positionRight
+                0x10000074        0x4 ./src/main.o
+                0x10000074                positionRight
+ .bss.velocityLeft
+                0x10000078        0x1 ./src/main.o
+                0x10000078                velocityLeft
+ .bss.velocityRight
+                0x10000079        0x1 ./src/main.o
+                0x10000079                velocityRight
+ .bss.updateRemote_2_4GhzCommand
+                0x1000007a        0x1 ./src/main.o
+                0x1000007a                updateRemote_2_4GhzCommand
+ .bss.PanAngle  0x1000007b        0x1 ./src/main.o
+                0x1000007b                PanAngle
+ .bss.TiltAngle
+                0x1000007c        0x1 ./src/main.o
+                0x1000007c                TiltAngle
+ .bss.AuxAngle  0x1000007d        0x1 ./src/main.o
+                0x1000007d                AuxAngle
+ *fill*         0x1000007e        0x2 00
+ .bss.I2CMasterState
+                0x10000080        0xc G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+                0x10000080                I2CMasterState
+ .bss.timeout   0x1000008c        0xc G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+                0x1000008c                timeout
+ .bss.RdIndex0  0x10000098        0x4 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+                0x10000098                RdIndex0
+ .bss.RdIndex1  0x1000009c        0x4 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+                0x1000009c                RdIndex1
+ .bss.RdIndex2  0x100000a0        0x4 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+                0x100000a0                RdIndex2
+ .bss.WrIndex0  0x100000a4        0x4 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+                0x100000a4                WrIndex0
+ .bss.WrIndex1  0x100000a8        0x4 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+                0x100000a8                WrIndex1
+ .bss.WrIndex2  0x100000ac        0x4 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+                0x100000ac                WrIndex2
+ .bss.Left_Velocity
+                0x100000b0        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+                0x100000b0                Left_Velocity
+ .bss.Right_Velocity
+                0x100000b1        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+                0x100000b1                Right_Velocity
+ .bss.MotorUpdate
+                0x100000b2        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+                0x100000b2                MotorUpdate
+ .bss.Direction
+                0x100000b3        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+                0x100000b3                Direction
+ .bss.AccUpdate
+                0x100000b4        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+                0x100000b4                AccUpdate
+ .bss.Acc       0x100000b5        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+                0x100000b5                Acc
+ .bss.IRTrigger
+                0x100000b6        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+                0x100000b6                IRTrigger
+ .bss.WLTrigger
+                0x100000b7        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+                0x100000b7                WLTrigger
+ .bss.ULTrigger
+                0x100000b8        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+                0x100000b8                ULTrigger
+ .bss.IRTriggerState
+                0x100000b9        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+                0x100000b9                IRTriggerState
+ .bss.WLTriggerState
+                0x100000ba        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+                0x100000ba                WLTriggerState
+ .bss.ULTriggerState
+                0x100000bb        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+                0x100000bb                ULTriggerState
+ .bss.ServoUpdate
+                0x100000bc        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+                0x100000bc                ServoUpdate
+ .bss.ServoType
+                0x100000bd        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+                0x100000bd                ServoType
+ *fill*         0x100000be        0x2 00
+ .bss.UART0Count
+                0x100000c0        0x4 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+                0x100000c0                UART0Count
+ .bss.UART1Count
+                0x100000c4        0x4 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+                0x100000c4                UART1Count
+ .bss.UART2Count
+                0x100000c8        0x4 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+                0x100000c8                UART2Count
+ .bss.UART3Count
+                0x100000cc        0x4 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+                0x100000cc                UART3Count
+ .bss.cmd_byte  0x100000d0        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+                0x100000d0                cmd_byte
+ .bss.data_byte1
+                0x100000d1        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+                0x100000d1                data_byte1
+ .bss.packet_valid
+                0x100000d2        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+                0x100000d2                packet_valid
+ .bss.Len       0x100000d3        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+                0x100000d3                Len
+ .bss.Temp      0x100000d4        0x4 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+                0x100000d4                Temp
+ .bss.UART2Flag
+                0x100000d8        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+                0x100000d8                UART2Flag
+ .bss.RxReadLength
+                0x100000d9        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+                0x100000d9                RxReadLength
+ .bss.c.2283    0x100000da        0x1 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+ *(COMMON)
+ *fill*         0x100000db        0x1 00
+ COMMON         0x100000dc       0x18 ./src/main.o
+                0x100000dc                eint0_counter
+                0x100000e0                My_Button_Status
+                0x100000e1                Safety
+                0x100000e4                eint1_counter
+                0x100000e8                Mode
+                0x100000ec                Right_Count_New_Locked
+                0x100000f0                Left_Count_New_Locked
+ COMMON         0x100000f4       0x18 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(adc.o)
+                0x100000f4                ADCValue
+ COMMON         0x1000010c      0x198 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+                0x1000010c                I2CReadLength
+                0x10000118                I2CSlaveBuffer
+                0x100001d8                I2CMasterBuffer
+                0x10000298                I2CWriteLength
+ COMMON         0x100002a4      0x2a4 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+                0x100002a4                positionData
+                0x100002b0                UART2_RxBuffer
+                0x100002f0                Test
+                0x100003b8                UART1Buffer
+                0x100003f8                UART2Status
+                0x100003fc                UART3Status
+                0x10000400                UART0Buffer
+                0x10000440                Tx_Buffer
+                0x10000480                UART1Status
+                0x10000484                UART3Buffer
+                0x100004c4                UART2Buffer
+                0x10000504                Rx_Buffer
+                0x10000544                UART0Status
+                0x10000548                . = ALIGN (0x4)
+                0x10000548                _ebss = .
+                0x10000548                PROVIDE (end, .)
+                0x10000548                PROVIDE (_pvHeapStart, .)
+                0x10008000                PROVIDE (_vStackTop, (__top_RamLoc32 - 0x0))
+OUTPUT(RS232_GUI_DEMO.axf elf32-littlearm)
+
+.debug_abbrev   0x00000000     0x10fa
+ .debug_abbrev  0x00000000      0x10f ./src/cr_startup_lpc176x.o
+ .debug_abbrev  0x0000010f      0x203 ./src/main.o
+ .debug_abbrev  0x00000312       0xe3 G:\workspace\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+ .debug_abbrev  0x000003f5      0x15f G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(adc.o)
+ .debug_abbrev  0x00000554       0xf3 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(batterymonitor.o)
+ .debug_abbrev  0x00000647      0x1ee G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+ .debug_abbrev  0x00000835      0x14e G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+ .debug_abbrev  0x00000983      0x12e G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(lcd.o)
+ .debug_abbrev  0x00000ab1      0x1d5 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+ .debug_abbrev  0x00000c86      0x18b G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+ .debug_abbrev  0x00000e11      0x22c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+ .debug_abbrev  0x0000103d       0xbd G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+
+.debug_info     0x00000000     0x705d
+ .debug_info    0x00000000      0x2e3 ./src/cr_startup_lpc176x.o
+ .debug_info    0x000002e3     0x1522 ./src/main.o
+ .debug_info    0x00001805      0x388 G:\workspace\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+ .debug_info    0x00001b8d      0x6ac G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(adc.o)
+ .debug_info    0x00002239      0x358 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(batterymonitor.o)
+ .debug_info    0x00002591     0x10bc G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+ .debug_info    0x0000364d      0x54b G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+ .debug_info    0x00003b98      0x4ad G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(lcd.o)
+ .debug_info    0x00004045      0x72b G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+ .debug_info    0x00004770      0x6f4 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+ .debug_info    0x00004e64     0x1cd6 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+ .debug_info    0x00006b3a      0x523 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+
+.debug_line     0x00000000     0x4228
+ .debug_line    0x00000000      0x3b3 ./src/cr_startup_lpc176x.o
+ .debug_line    0x000003b3      0x737 ./src/main.o
+ .debug_line    0x00000aea      0x3e3 G:\workspace\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+ .debug_line    0x00000ecd      0x3fe G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(adc.o)
+ .debug_line    0x000012cb      0x41c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(batterymonitor.o)
+ .debug_line    0x000016e7      0x5e8 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+ .debug_line    0x00001ccf      0x513 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+ .debug_line    0x000021e2      0x4d8 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(lcd.o)
+ .debug_line    0x000026ba      0x6ad G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+ .debug_line    0x00002d67      0x583 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+ .debug_line    0x000032ea      0xa7e G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+ .debug_line    0x00003d68      0x4c0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+
+.debug_macinfo  0x00000000    0x433b2
+ .debug_macinfo
+                0x00000000     0x3178 ./src/cr_startup_lpc176x.o
+ .debug_macinfo
+                0x00003178     0x6b1b ./src/main.o
+ .debug_macinfo
+                0x00009c93     0x4a1c G:\workspace\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+ .debug_macinfo
+                0x0000e6af     0x4a2c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(adc.o)
+ .debug_macinfo
+                0x000130db     0x6234 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(batterymonitor.o)
+ .debug_macinfo
+                0x0001930f     0x4acb G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+ .debug_macinfo
+                0x0001ddda     0x622e G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+ .debug_macinfo
+                0x00024008     0x6229 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(lcd.o)
+ .debug_macinfo
+                0x0002a231     0x6548 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+ .debug_macinfo
+                0x00030779     0x6231 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+ .debug_macinfo
+                0x000369aa     0x6818 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+ .debug_macinfo
+                0x0003d1c2     0x61f0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+
+.debug_loc      0x00000000     0x19e8
+ .debug_loc     0x00000000      0x1b8 ./src/cr_startup_lpc176x.o
+ .debug_loc     0x000001b8      0x360 ./src/main.o
+ .debug_loc     0x00000518       0x64 G:\workspace\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+ .debug_loc     0x0000057c       0x9c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(adc.o)
+ .debug_loc     0x00000618       0xa8 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(batterymonitor.o)
+ .debug_loc     0x000006c0      0x2b4 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+ .debug_loc     0x00000974      0x27c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+ .debug_loc     0x00000bf0      0x1ec G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(lcd.o)
+ .debug_loc     0x00000ddc      0x4e8 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+ .debug_loc     0x000012c4      0x324 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+ .debug_loc     0x000015e8      0x2a0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+ .debug_loc     0x00001888      0x160 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+
+.debug_pubnames
+                0x00000000     0x122c
+ .debug_pubnames
+                0x00000000      0x118 ./src/cr_startup_lpc176x.o
+ .debug_pubnames
+                0x00000118      0x381 ./src/main.o
+ .debug_pubnames
+                0x00000499       0x4b G:\workspace\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+ .debug_pubnames
+                0x000004e4       0x7b G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(adc.o)
+ .debug_pubnames
+                0x0000055f       0x62 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(batterymonitor.o)
+ .debug_pubnames
+                0x000005c1      0x17e G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+ .debug_pubnames
+                0x0000073f      0x169 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+ .debug_pubnames
+                0x000008a8       0xb5 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(lcd.o)
+ .debug_pubnames
+                0x0000095d      0x255 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+ .debug_pubnames
+                0x00000bb2      0x1d8 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+ .debug_pubnames
+                0x00000d8a      0x2b6 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+ .debug_pubnames
+                0x00001040      0x1ec G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+
+.debug_pubtypes
+                0x00000000      0x4d9
+ .debug_pubtypes
+                0x00000000       0x12 ./src/cr_startup_lpc176x.o
+ .debug_pubtypes
+                0x00000012       0xf3 ./src/main.o
+ .debug_pubtypes
+                0x00000105       0x32 G:\workspace\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+ .debug_pubtypes
+                0x00000137       0x69 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(adc.o)
+ .debug_pubtypes
+                0x000001a0       0x3f G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(batterymonitor.o)
+ .debug_pubtypes
+                0x000001df       0xbd G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+ .debug_pubtypes
+                0x0000029c       0x3f G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+ .debug_pubtypes
+                0x000002db       0x3f G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(lcd.o)
+ .debug_pubtypes
+                0x0000031a       0x56 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+ .debug_pubtypes
+                0x00000370       0x4c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+ .debug_pubtypes
+                0x000003bc       0xff G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+ .debug_pubtypes
+                0x000004bb       0x1e G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+
+.debug_aranges  0x00000000      0x548
+ .debug_aranges
+                0x00000000       0x80 ./src/cr_startup_lpc176x.o
+ .debug_aranges
+                0x00000080       0xa8 ./src/main.o
+ .debug_aranges
+                0x00000128       0x28 G:\workspace\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+ .debug_aranges
+                0x00000150       0x30 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(adc.o)
+ .debug_aranges
+                0x00000180       0x30 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(batterymonitor.o)
+ .debug_aranges
+                0x000001b0       0x80 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+ .debug_aranges
+                0x00000230       0x78 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+ .debug_aranges
+                0x000002a8       0x60 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(lcd.o)
+ .debug_aranges
+                0x00000308       0xe0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+ .debug_aranges
+                0x000003e8       0x90 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+ .debug_aranges
+                0x00000478       0x78 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+ .debug_aranges
+                0x000004f0       0x58 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+
+.debug_ranges   0x00000000      0x488
+ .debug_ranges  0x00000000       0x70 ./src/cr_startup_lpc176x.o
+ .debug_ranges  0x00000070       0x98 ./src/main.o
+ .debug_ranges  0x00000108       0x18 G:\workspace\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+ .debug_ranges  0x00000120       0x20 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(adc.o)
+ .debug_ranges  0x00000140       0x20 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(batterymonitor.o)
+ .debug_ranges  0x00000160       0x70 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+ .debug_ranges  0x000001d0       0x68 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+ .debug_ranges  0x00000238       0x50 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(lcd.o)
+ .debug_ranges  0x00000288       0xd0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+ .debug_ranges  0x00000358       0x80 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+ .debug_ranges  0x000003d8       0x68 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+ .debug_ranges  0x00000440       0x48 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+
+.debug_str      0x00000000     0x17cb
+ .debug_str     0x00000000      0x1ff ./src/cr_startup_lpc176x.o
+                                0x227 (size before relaxing)
+ .debug_str     0x000001ff      0x9d7 ./src/main.o
+                                0xade (size before relaxing)
+ .debug_str     0x00000bd6       0x5d G:\workspace\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+                                0x245 (size before relaxing)
+ .debug_str     0x00000c33       0xc8 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(adc.o)
+                                0x3c9 (size before relaxing)
+ .debug_str     0x00000cfb       0x98 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(batterymonitor.o)
+                                0x1dc (size before relaxing)
+ .debug_str     0x00000d93      0x15e G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+                                0x890 (size before relaxing)
+ .debug_str     0x00000ef1      0x139 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+                                0x2b9 (size before relaxing)
+ .debug_str     0x0000102a       0xa6 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(lcd.o)
+                                0x216 (size before relaxing)
+ .debug_str     0x000010d0      0x23f G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+                                0x401 (size before relaxing)
+ .debug_str     0x0000130f      0x137 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+                                0x323 (size before relaxing)
+ .debug_str     0x00001446      0x2bc G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+                                0xcde (size before relaxing)
+ .debug_str     0x00001702       0xc9 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+                                0x208 (size before relaxing)
+
+.comment        0x00000000       0x2a
+ .comment       0x00000000       0x2a ./src/cr_startup_lpc176x.o
+                                 0x2b (size before relaxing)
+ .comment       0x00000000       0x2b ./src/main.o
+ .comment       0x00000000       0x2b G:\workspace\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+ .comment       0x00000000       0x2b G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(adc.o)
+ .comment       0x00000000       0x2b G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(batterymonitor.o)
+ .comment       0x00000000       0x2b G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+ .comment       0x00000000       0x2b G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+ .comment       0x00000000       0x2b G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(lcd.o)
+ .comment       0x00000000       0x2b G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+ .comment       0x00000000       0x2b G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+ .comment       0x00000000       0x2b G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+ .comment       0x00000000       0x2b G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+ .comment       0x00000000       0x2b c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__weak__main.o)
+ .comment       0x00000000       0x2b c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdlib.o)
+ .comment       0x00000000       0x2b c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strcmp.o)
+ .comment       0x00000000       0x2b c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strncpy.o)
+ .comment       0x00000000       0x2b c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(initio.o)
+ .comment       0x00000000       0x2b c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(raise.o)
+ .comment       0x00000000       0x2b c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(setvbuf.o)
+ .comment       0x00000000       0x2b c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdio.o)
+ .comment       0x00000000       0x2b c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(memset.o)
+ .comment       0x00000000       0x2b c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__fillbuf.o)
+ .comment       0x00000000       0x2b c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_deferredlazyseek.o)
+ .comment       0x00000000       0x2b c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_fdopen.o)
+ .comment       0x00000000       0x2b c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_fflush.o)
+ .comment       0x00000000       0x2b c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_writebuf.o)
+ .comment       0x00000000       0x2b c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(alloc.o)
+ .comment       0x00000000       0x2b c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fclose.o)
+ .comment       0x00000000       0x2b c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fflush.o)
+ .comment       0x00000000       0x2b c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fseek.o)
+ .comment       0x00000000       0x2b c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(ftell.o)
+ .comment       0x00000000       0x2b c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(remove.o)
+ .comment       0x00000000       0x2b c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strlen.o)
+ .comment       0x00000000       0x2b c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(memcpy.o)
+ .comment       0x00000000       0x2b c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__init_alloc.o)
+ .comment       0x00000000       0x2b c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_do_fflush.o)
+ .comment       0x00000000       0x2b c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(errno.o)
+ .comment       0x00000000       0x2b c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+ .comment       0x00000000       0x2b c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+
+.ARM.attributes
+                0x00000000       0x2f
+ .ARM.attributes
+                0x00000000       0x31 ./src/cr_startup_lpc176x.o
+ .ARM.attributes
+                0x00000031       0x31 ./src/main.o
+ .ARM.attributes
+                0x00000062       0x31 G:\workspace\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+ .ARM.attributes
+                0x00000093       0x31 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(adc.o)
+ .ARM.attributes
+                0x000000c4       0x31 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(batterymonitor.o)
+ .ARM.attributes
+                0x000000f5       0x31 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+ .ARM.attributes
+                0x00000126       0x31 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+ .ARM.attributes
+                0x00000157       0x31 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(lcd.o)
+ .ARM.attributes
+                0x00000188       0x31 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+ .ARM.attributes
+                0x000001b9       0x31 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+ .ARM.attributes
+                0x000001ea       0x31 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+ .ARM.attributes
+                0x0000021b       0x31 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)
+ .ARM.attributes
+                0x0000024c       0x31 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__weak__main.o)
+ .ARM.attributes
+                0x0000027d       0x31 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdlib.o)
+ .ARM.attributes
+                0x000002ae       0x31 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strcmp.o)
+ .ARM.attributes
+                0x000002df       0x31 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strncpy.o)
+ .ARM.attributes
+                0x00000310       0x31 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(initio.o)
+ .ARM.attributes
+                0x00000341       0x31 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(raise.o)
+ .ARM.attributes
+                0x00000372       0x31 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(setvbuf.o)
+ .ARM.attributes
+                0x000003a3       0x31 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(stdio.o)
+ .ARM.attributes
+                0x000003d4       0x31 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(memset.o)
+ .ARM.attributes
+                0x00000405       0x31 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__fillbuf.o)
+ .ARM.attributes
+                0x00000436       0x31 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_deferredlazyseek.o)
+ .ARM.attributes
+                0x00000467       0x31 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_fdopen.o)
+ .ARM.attributes
+                0x00000498       0x31 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_fflush.o)
+ .ARM.attributes
+                0x000004c9       0x31 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_writebuf.o)
+ .ARM.attributes
+                0x000004fa       0x31 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(alloc.o)
+ .ARM.attributes
+                0x0000052b       0x31 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fclose.o)
+ .ARM.attributes
+                0x0000055c       0x31 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fflush.o)
+ .ARM.attributes
+                0x0000058d       0x31 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(fseek.o)
+ .ARM.attributes
+                0x000005be       0x31 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(ftell.o)
+ .ARM.attributes
+                0x000005ef       0x31 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(remove.o)
+ .ARM.attributes
+                0x00000620       0x31 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strlen.o)
+ .ARM.attributes
+                0x00000651       0x31 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(memcpy.o)
+ .ARM.attributes
+                0x00000682       0x31 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(__init_alloc.o)
+ .ARM.attributes
+                0x000006b3       0x31 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(_do_fflush.o)
+ .ARM.attributes
+                0x000006e4       0x31 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(errno.o)
+ .ARM.attributes
+                0x00000715       0x31 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(double.o)
+ .ARM.attributes
+                0x00000746       0x31 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(float.o)
+ .ARM.attributes
+                0x00000777       0x21 c:/nxp/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a(memcpy.o)
+
+.debug_frame    0x00000000      0xf68
+ .debug_frame   0x00000000       0xf0 ./src/cr_startup_lpc176x.o
+ .debug_frame   0x000000f0      0x1f8 ./src/main.o
+ .debug_frame   0x000002e8       0x44 G:\workspace\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+ .debug_frame   0x0000032c       0x60 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(adc.o)
+ .debug_frame   0x0000038c       0x70 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(batterymonitor.o)
+ .debug_frame   0x000003fc      0x17c G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(i2c.o)
+ .debug_frame   0x00000578      0x184 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(inertial.o)
+ .debug_frame   0x000006fc      0x128 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(lcd.o)
+ .debug_frame   0x00000824      0x2fc G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(motorcontroller.o)
+ .debug_frame   0x00000b20      0x1e4 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(sensorboard.o)
+ .debug_frame   0x00000d04      0x174 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(uart.o)
+ .debug_frame   0x00000e78       0xf0 G:\workspace\FB6Lib_v_01_00\Debug\libFB6Lib_v_01_00.a(Gps.o)

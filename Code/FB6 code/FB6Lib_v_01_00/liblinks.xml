@@ -1,0 +1,29 @@
+<!-- liblinks.xml
+
+     Code Red Technologies "Smart update wizard" script file
+     When executed on a particular application project, will
+     add appropriate links to the specified library project.
+
+     Note that this script assumes that the application project
+     contains the standard 'Debug' and 'Release' build 
+     configurations.
+-->
+
+<project name="" update="true">
+	<setting id="all.compiler.inc">
+		<value>${workspace_loc:/FB6Lib_v_01_00/inc}</value>
+        </setting>
+	<setting id="linker.libs">
+		<value>FB6Lib_v_01_00</value>
+	</setting>
+	<setting id="linker.paths" buildType="Debug">
+		<value>${workspace_loc:/FB6Lib_v_01_00/Debug}</value>
+	</setting>
+	<setting id="linker.paths" buildType="Release">
+		<value>${workspace_loc:/FB6Lib_v_01_00/Release}</value>
+	</setting>
+	<requires msg="Library project `FB6Lib_v_01_00` not found">
+		<value>FB6Lib_v_01_00</value>
+	</requires>
+</project>
+

@@ -1,0 +1,665 @@
+/*
+===============================================================================
+ Name        : main.c
+ Author      : 
+ Version     :
+ Copyright   : Copyright (C) 
+ Description : main definition
+===============================================================================
+*/
+
+#ifdef __USE_CMSIS
+#include "LPC17xx.h"
+#include "type.h"
+#endif
+
+#include <cr_section_macros.h>
+#include <NXP/crp.h>
+
+// Variable to store CRP value in. Will be placed automatically
+// by the linker when "Enable Code Read Protect" selected.
+// See crp.h header for more information
+__CRP const unsigned int CRP_WORD = CRP_NO_CRP ;
+
+// TODO: insert other include files here
+#include "HardwareDefinition.h"
+#include "Hardwareprofile.h"
+#include "FB6Lib.h"
+
+
+/*************************ADDITIONS***********************/
+#define LASER_PIN			0x04000000
+#define LASER_TURN_ON()		LPC_GPIO3->FIOCLR=LASER_PIN
+#define LASER_TURN_OFF()	LPC_GPIO3->FIOSET=LASER_PIN
+/*********************************************************/
+
+/*************************ADDITIONS***********************/
+#define MOTOR_PIN			0x00040000
+#define MOTOR_TURN_ON()		LPC_GPIO1->FIOCLR=MOTOR_PIN
+#define MOTOR_TURN_OFF()	LPC_GPIO1->FIOSET=MOTOR_PIN
+/*********************************************************/
+
+#define MOTOR1_PIN				0x00400000
+#define MOTOR1_TURN_ON()		LPC_GPIO1->FIOCLR=MOTOR1_PIN
+#define MOTOR1_TURN_OFF()		LPC_GPIO1->FIOSET=MOTOR1_PIN
+
+#define MOTOR2_PIN				0x00200000
+#define MOTOR2_TURN_ON()		LPC_GPIO1->FIOCLR=MOTOR2_PIN
+#define MOTOR2_TURN_OFF()		LPC_GPIO1->FIOSET=MOTOR2_PIN
+/*
+
+#define MOTOR3_PIN				0x00000002
+#define MOTOR3_TURN_ON()		LPC_GPIO2->FIOCLR=MOTOR3_PIN
+#define MOTOR3_TURN_OFF()		LPC_GPIO2->FIOSET=MOTOR3_PIN
+*/
+
+/*************************ADDITIONS***********************/
+#define MOTOR3_PIN			0x00080000
+#define MOTOR3_TURN_ON()		LPC_GPIO1->FIOCLR=MOTOR3_PIN
+#define MOTOR3_TURN_OFF()	LPC_GPIO1->FIOSET=MOTOR3_PIN
+/*********************************************************/
+// TODO: insert other definitions and declarations here
+/******************Global Variables****************************/
+
+/**************************************************************/
+
+
+/******************Function Prototypes****************************/
+void InitLeds(void);
+void InitSwitch(void);
+void InitPeripherals(void);
+void Delay(void);
+void BlinkLEDs(void);
+void Delay1s(void);
+void Delay100ms(void);
+void AcquireData(void);
+void DelayRotate90(void);
+void InitLaserPort(void);
+void InitMotorPort(void);
+void InitPWM(void);
+
+/*****************************************************************/
+
+/*===============================================================================
+ Name        	 : PWM1_IRQHandler (void)
+ Parameters		 : None
+ Description 	 : Interrupt request handler
+ Preconditions	 :
+===============================================================================*/
+void PWM1_IRQHandler (void)
+
+{
+
+	if((LPC_PWM1->IR & 0x04) == 0x04) // Check whether it is an interrupt from match compare 2
+
+	{
+
+		LPC_PWM1->IR |= 0x04; // Clear the interrupt flag
+
+		// Write the interrupt routine here.
+	}
+
+	return;
+
+}
+
+
+/*===============================================================================
+ Name        	 : EINT0_IRQHandler(void) Written by ***AllSpark team***
+ Parameters		 : None
+ Description 	 : Interrupt handler for interrupt 0
+ Preconditions	 :
+===============================================================================*/
+
+volatile uint32_t eint0_counter;
+volatile uint32_t eint1_counter;
+
+void EINT0_IRQHandler (void)
+{
+  LPC_SC->EXTINT = 1;                /* clear interrupt */
+
+  eint0_counter++;
+
+ LCDClearScreen();
+	LCDSetCursorPosition(1,1);
+	LCD_WriteStr(20,(uint8_t *)"Count");
+	LCD_PrintData(2,18,eint0_counter,3);
+ /* if ( eint0_counter & 0x01 )         alternate the LED display
+  {
+        LPC_GPIO2->FIOSET = 0x0000000F;         turn off P2.0~3
+        LPC_GPIO2->FIOCLR = 0x000000F0;         turn on P2.4~7
+  }
+  else
+  {
+        LPC_GPIO2->FIOSET = 0x000000F0;         turn on P2.0~3
+        LPC_GPIO2->FIOCLR = 0x0000000F;         turn off P2.4~7
+  }*/
+
+}
+
+void EINT1_IRQHandler (void)
+{
+  LPC_SC->EXTINT = 1;                /* clear interrupt */
+
+  eint0_counter++;
+
+  	LCDClearScreen();
+	LCDSetCursorPosition(1,1);
+	LCD_WriteStr(20,(uint8_t *)"Int1 Count");
+	LCD_PrintData(2,18,eint1_counter,3);
+ /* if ( eint0_counter & 0x01 )         alternate the LED display
+  {
+        LPC_GPIO2->FIOSET = 0x0000000F;         turn off P2.0~3
+        LPC_GPIO2->FIOCLR = 0x000000F0;         turn on P2.4~7
+  }
+  else
+  {
+        LPC_GPIO2->FIOSET = 0x000000F0;         turn on P2.0~3
+        LPC_GPIO2->FIOCLR = 0x0000000F;         turn off P2.4~7
+  }*/
+
+}
+
+/*===============================================================================
+ Name        	 : EINT0_IRQHandler(void) Written by ***AllSpark team***
+ Parameters		 : None
+ Description 	 : Interrupt handler for interrupt 0
+ Preconditions	 :
+===============================================================================*/
+uint32_t EINTInit( void )
+{
+  LPC_PINCON->PINSEL4 |= ((~2) << 22);        /* set P2.10 as EINT0 and
+                                                                        P2.0~7 GPIO output */
+ /* LPC_GPIO2->FIODIR = 0x000000FF;         port 2, bit 0~7 only
+  LPC_GPIO2->FIOCLR = 0x000000FF;         turn off LEDs */
+
+  LPC_GPIOINT->IO2IntEnR |= (1 << 10);        /* Port2.10 is rising edge. */
+  LPC_SC->EXTMODE |= 0x2;                /* INT0 edge trigger */
+  LPC_SC->EXTPOLAR |= 0x2;
+
+  NVIC_EnableIRQ(EINT1_IRQn);
+  return( TRUE );
+}
+
+
+
+/*===============================================================================
+ Name        	 : InitPWM() Written by ***AllSpark team***
+ Parameters		 : None
+ Description 	 : Initialise PWM registers
+ Preconditions	 :
+===============================================================================*/
+void InitPWM(void){
+	// ensure PWM peripheral is powered on (it is powered on by default)
+		    LPC_SC->PCONP |= 1 << 6;
+
+		    LPC_PWM1->TCR = 2;                      // bring PWM module into reset
+		    LPC_PWM1->IR = 0xff;                    // clear any pending interrupts
+
+		    //LPC_PINCON->PINSEL4 |= (1 << 0) | (1 << 2);
+		    // configure P2.0 for PWM1.1 - O - Pulse Width Modulator 1, channel 1 output.
+		   // LPC_PINCON->PINSEL4 = (LPC_PINCON->PINSEL4 & ~(0x3 << 0)) | (0x1 << 0);
+
+		    // Disable pullups for P2.0
+		    //LPC_PINCON->PINMODE4 = (LPC_PINCON->PINMODE4 & ~0x3) | 0x2;
+
+			LPC_PINCON->PINMODE4 |= ((2 << 0) | (2 << 2));
+			LPC_PINCON->PINSEL4 = (LPC_PINCON->PINSEL4 & ~(0x3 << 0)) | (0x1 << 0);
+			LPC_PINCON->PINSEL4 = (LPC_PINCON->PINSEL4 & ~(0x3 << 2)) | (0x1 << 2);
+		    // Set prescale so we have a resolution of 1us
+		    LPC_PWM1->PR = SystemFrequency / (4 * 1000000) - 1;
+		    LPC_PWM1->MR0 = 200000;                  // set the period in us.
+		    LPC_PWM1->MR1 = 8000;                   // set duty of
+		    LPC_PWM1->MR2 = 8000;                  // set a match
+		    // before the TC resets.
+
+		    LPC_PWM1->LER = 0xF;//0x7;					// set latch-enable register
+		    LPC_PWM1->MCR = 0x2;// | (1 << 6);         // reset on MR0
+		    LPC_PWM1->PCR = 1 << 9;                 // enable PWM1 with single-edge operation
+		    LPC_PWM1->PCR |= 1 << 10;
+		    LPC_PWM1->TCR = (1 << 3) | 1;
+
+		    NVIC_EnableIRQ(PWM1_IRQn); // interrupt service routine uncomment if required
+}
+
+/*===============================================================================
+ Function        : InitLeds()
+ Parameters		 : None
+ Description 	 : Sets direction of LED IO pins
+ Preconditions	 : Uncomment LED definition in Hardwareprofile.h
+===============================================================================*/
+void InitLeds(void)
+{
+	LPC_GPIO1->FIODIR&=	!(LED1 | LED2 | LED3 | LED4);
+	LPC_GPIO1->FIODIR|= (LED1 | LED2 | LED3 | LED4);
+}
+
+/*===============================================================================
+ Name        	 : InitSwitch()
+ Parameters		 : None
+ Description 	 : Sets direction of Switch IO pins
+ Preconditions	 : Uncomment SWITCH definition in Hardwareprofile.h
+===============================================================================*/
+void InitSwitch(void)
+{
+	/******************************/
+	My_Button_Status = 0;
+	/******************************/
+
+	LPC_GPIO2->FIODIR&= !(SW1 | SW2 | SW3 | SW4);
+}
+
+
+/*===============================================================================
+ Name        	 : InitPeripherals()
+ Parameters		 : None
+ Description 	 : This function initializes the peripherals of LPC1769 microcontroller
+ 	 	 	 	   and modules of Fire Bird VI robot as per the definitions in
+ 	 	 	 	   Hardwareprofile.h
+ Preconditions	 : None
+===============================================================================*/
+void InitPeripherals(void)
+{
+#if (defined(MOTORCONTROLLER))
+	// delay to allow motor controller to initialize
+	Delay100ms();
+
+	UARTInit(2, 115200);
+	InitMotorController();
+	Mode = 1;
+	SetMode(Mode);
+	Stop();
+#endif
+
+#ifdef LED
+	InitLeds();
+	BlinkLEDs();
+#endif
+
+#ifdef SWITCH
+	InitSwitch();
+#endif
+
+#if (defined(POT) || defined(SERVOPOD))
+	ADCInit(ADC_CLK);
+	#if (defined(SERVOPOD))
+	LPC_GPIO1->FIODIR|= P1_29;				//Set Direction of trigger pin
+	UL_TRIG_OFF();							//Initially ServoPod Ultrasonic Trigger is set OFF
+	#endif
+#endif
+
+#ifdef SENSORBOARD
+	ResetI2C0();
+	I2C0Init();
+	I2CStop(0);
+
+	#if (defined(WHITELINE))
+	//Do Something
+	#endif
+
+	#if (defined(ULTRASONIC))
+	//Do Something
+	#endif
+
+	#if (defined(IR_PROXIMITY))
+	//Do Something
+	#endif
+
+	#if (defined(EXT_ADC))
+	AD7998_WriteReg(AD7998_CONFIG,0x0FF8);		//Convert Channel 1, Filter On
+	#endif
+#endif
+
+#if (defined(BATTERYMONITOR) || defined(INERTIAL) || defined(LCD))
+	ResetI2C1();
+	I2C1Init();
+	I2CStop(1);
+
+	#if (defined(BATTERYMONITOR))
+		//Do Something
+	#endif
+
+	#if (defined(GYROSCOPE))
+		Init_L3G4200D();
+	#endif
+
+	#if (defined(ACCELEROMETER))
+		Init_LSM303DLHC_Accelerometer();
+	#endif
+
+	#if (defined(MAGNETOMETER))
+		Init_LSM303DLHC_Magnetometer();
+	#endif
+
+	#if (defined(LCD))
+		// delay to allow LCD to initialize
+		Delay1s();
+		InitLCD();
+	#endif
+
+#endif
+
+#if (defined(BEAGLE))
+	//UARTInit(3, 115200);
+		UARTInit(3, 9600);
+#endif
+
+#if (defined(GPS))
+	UARTInit(0, 9600);
+#endif
+
+#if (defined(WIRELESS_COMMUNICATION))
+	UARTInit(1,9600);
+	#if (defined(BLUETOOTH))
+	//Do Something
+	#endif
+
+	#if (defined(XBEE))
+	//Do Something
+	#endif
+
+	#if (defined(WIFI))
+	//Do Something
+	#endif
+#endif
+	InitLaserPort();
+	InitMotorPort();
+	InitPWM();
+	EINTInit();
+}
+
+/*===============================================================================
+ Name        	 : Delay();
+ Parameters		 : None
+ Description 	 : Generates delay of very small amount
+ Preconditions	 : None
+===============================================================================*/
+void Delay(void)
+{
+	uint32_t i=0;
+	for(i=0;i<100;i++);
+}
+
+/*===============================================================================
+ Name        	 : Delay1s();
+ Parameters		 : None
+ Description 	 : Generates delay of approximately 1 Second
+ Preconditions	 : None
+===============================================================================*/
+void Delay1s(void)
+{
+	volatile uint32_t i=0;
+	volatile uint32_t k=0;
+	volatile uint32_t j=0;
+	for(k=0;k<110;k++)
+	{
+		for(i=0;i<60000;i++)
+		{
+			j++;
+		}
+	}
+}
+
+/*===============================================================================
+ Name        	 : Delay100ms();
+ Parameters		 : None
+ Description 	 : Generates delay of approximately 100 milliseconds
+ Preconditions	 : None
+===============================================================================*/
+void Delay100ms(void)
+{
+	volatile uint32_t i=0;
+	volatile uint32_t k=0;
+	volatile uint32_t j=0;
+	for(k=0;k<11;k++)
+	{
+		for(i=0;i<60000;i++)
+		{
+			j++;
+		}
+	}
+}
+
+void DelayRotate90(void)
+{
+	volatile uint32_t i=0;
+	volatile uint32_t k=0;
+	volatile uint32_t j=0;
+	for(k=0;k<45;k++)
+	{
+		for(i=0;i<60000;i++)
+		{
+			j++;
+		}
+	}
+}
+
+/*===============================================================================
+ Name        	 : BlinkLEDs();
+ Parameters		 : None
+ Description 	 : This function blinks the LEDs on GPIO panel
+ Preconditions	 : None
+===============================================================================*/
+void BlinkLEDs(void)
+{
+	LED1_ON();
+	Delay100ms();
+	LED1_OFF();
+	LED2_ON();
+	Delay100ms();
+	LED2_OFF();
+	LED3_ON();
+	Delay100ms();
+	LED3_OFF();
+	LED4_ON();
+	Delay100ms();
+	LED4_OFF();
+}
+
+
+/*===============================================================================
+ Name        	 : AcquireData();
+ Parameters		 : None
+ Description 	 : This function acquires data from sensor module, power management module, IMU
+ 	 	 	 	   and sets actuation signals for traction motors, servo motors, etc.
+ Preconditions	 : None
+===============================================================================*/
+void AcquireData(void)
+{
+#ifdef BATTERYMONITOR
+	Get_Battery_Status(Battery);			//Battery
+#endif
+
+#ifdef WHITELINE
+	WLTriggerUpdate();
+	Get_Whiteline_Data(Whiteline);			//Whiteline
+#endif
+
+#ifdef ULTRASONIC
+	ULTriggerUpdate();
+	Get_Ultrasonic_Data(Ultrasonic);		//Ultrasonic
+#endif
+
+#ifdef IR_PROXIMITY
+	IRTriggerUpdate();
+	Get_IR_Proximity_Data(IR_Proximity);	//IR_Proximity
+#endif
+
+#ifdef GYROSCOPE
+	Get_XYZ_Rate(Gyroscope);				//Gyroscope
+#endif
+
+#ifdef ACCELEROMETER
+	Get_XYZ_Acceleration(Accelerometer);	//Accelerometer
+#endif
+
+#ifdef MAGNETOMETER
+	Get_XYZ_Magnetometer(Magnetometer);		//Magnetometer
+#endif
+
+#ifdef MOTORCONTROLLER
+	AccelerationUpdate();
+	MotorControl();
+	if(ResetEncoderCounts==1)
+	{
+		ClearEncoderCounts();
+		ResetEncoderCounts=0;
+	}
+	Left_Count_New_Locked=GetLeftMotorCount();
+	Right_Count_New_Locked = GetRightMotorCount();
+	if(UpdateMode == 1)
+	{
+		SetMode(Mode);
+		Mode = GetMode();
+		UpdateMode = 0;
+	}
+	if(UpdateSafety == 1)
+	{
+		if(Safety == 1)
+			EnableSafety();
+		else
+			DisableSafety();
+		UpdateSafety = 0;
+	}
+	if(updatePosition == 1)
+	{
+		SetPosition(positionLeft, velocityLeft, positionRight, velocityRight);
+		updatePosition = 0;
+	}
+#endif
+
+#ifdef POT
+	PotValue = ADCRead(5);
+#endif
+
+#ifdef SERVOPOD
+	ServoPOD_ADC = ADCRead(1);
+	if(ServoUpdate==1)
+	{
+		if		(ServoType==PAN)	{UpdateServoPos(PanAngle,PAN);}
+		else if (ServoType==TILT)	{UpdateServoPos(TiltAngle,TILT);}
+		else if (ServoType==AUX)	{UpdateServoPos(AuxAngle,AUX);}
+	}
+#endif
+
+#ifdef LED
+	if (!SW1_PRESSED)
+		{My_Button_Status |= 0x1;LASER_TURN_ON();}/////TO BE REMOVED********************
+	if (!SW2_PRESSED)
+		{My_Button_Status |= 0x2;LASER_TURN_OFF();}/////TO BE REMOVED********************
+	if (!SW3_PRESSED)
+		My_Button_Status |= 0x4;
+	if (!SW4_PRESSED)
+		My_Button_Status |= 0x8;
+	if (My_Button_Status & 0x10)
+		LED1_ON();
+	else
+		LED1_OFF();
+	if (My_Button_Status & 0x20)
+			LED2_ON();
+		else
+			LED2_OFF();
+	if (My_Button_Status & 0x40)
+			LED3_ON();
+		else
+			LED3_OFF();
+	if (My_Button_Status & 0x80)
+			LED4_ON();
+		else
+			LED4_OFF();
+#endif
+
+#ifdef EXT_ADC
+	Get_AD7998_Data(AD7998ADC);
+#endif
+}
+
+/******************Type Definitions in stdint.h file*************************
+
+			typedef signed char int8_t;
+			typedef unsigned char uint8_t;
+
+			typedef short int16_t;
+			typedef unsigned short uint16_t;
+
+			typedef int int32_t;
+			typedef unsigned int uint32_t;
+
+****************************************************************************/
+
+void InitLaserPort(void)
+{
+	LPC_GPIO3->FIODIR |= LASER_PIN;
+	LASER_TURN_OFF();
+}
+
+void InitMotorPort(void)
+{
+	LPC_PINCON->PINSEL3 &= (~(3 << 4));
+	LPC_GPIO1->FIODIR |= MOTOR_PIN;
+	MOTOR_TURN_ON();
+
+	LPC_PINCON->PINSEL3 &= (~(3 << 12));
+	LPC_GPIO1->FIODIR |= MOTOR1_PIN;
+	MOTOR1_TURN_ON();
+
+	LPC_PINCON->PINSEL3 &= (~(3 << 10));
+	LPC_GPIO1->FIODIR |= MOTOR2_PIN;
+	MOTOR2_TURN_ON();
+
+	LPC_PINCON->PINSEL3 &= (~(3 << 6));
+	LPC_GPIO1->FIODIR |= MOTOR3_PIN;
+	MOTOR3_TURN_ON();
+
+}
+
+int main(void) {
+	// TODO: insert code here
+	uint32_t Tick=0;
+	float Volts=0;
+	float Current=0;
+	float Temperature=0;
+	float Servo_Proximity=0;
+
+	SystemInit();			/*Inits PLL and Peripheral Clocks*/	//Core Clock(CCLK) = 120MHz, All Peripheral Clock = 1/4 * CCLK
+	SystemClockUpdate();	/* SystemClockUpdate() updates the SystemFrequency variable */
+	InitPeripherals();
+
+	IRTrigger = 1;
+	IRTriggerState = 0;
+	WLTrigger = 1;
+	WLTriggerState = 0;
+
+	#ifdef LCD
+
+		LCDSetCursorPosition(1,1);
+		LCD_WriteStr(20,(uint8_t *)"Hash test 001");
+		LCDSetCursorPosition(2,16);	LCD_WriteStr(2,(uint8_t *)"V:");
+		LCDSetCursorPosition(3,16); LCD_WriteStr(2,(uint8_t *)"I:");
+		LCDSetCursorPosition(4,16); LCD_WriteStr(5,(uint8_t *)"T:280");
+		LCDSetCursorPosition(2,7);  LCD_WriteStr(4,(uint8_t *)"UL :");
+		LCDSetCursorPosition(3,7);  LCD_WriteStr(4,(uint8_t *)"POT:");
+	#endif
+		LED1_ON();
+	// Enter an infinite loop
+	while(1) {
+		AcquireData();
+		Volts = (float)Battery[0] * 0.0521 * 10.0;
+		Current = ((2.5 - ((float)Battery[1] * 0.0129)) / 0.185) * 100.0;
+		Temperature = ((float)Battery[2] * 1.29);
+		#ifdef LCD
+		Tick++;
+		if(Tick==10)
+		{
+			LCD_PrintData(2,18,Volts,3);
+			LCD_PrintData(3,18,Current,3);
+			LCD_PrintData(4,18,Temperature,3);
+			LCD_PrintData(2,11,Servo_Proximity,4);
+			LCD_PrintData(3,11,PotValue,4);
+			Tick = 0;
+		}
+		#endif
+
+	}
+	return 0 ;
+}
